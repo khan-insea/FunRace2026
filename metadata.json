@@ -1,0 +1,6 @@
+{
+  "name": "RongViet Runners 2026 - Mỗi bước chạy - Một mầm xanh",
+  "description": "Website giới thiệu giải chạy trực tuyến RongViet Runners 2026 do CTCP Chứng khoán Rồng Việt (VDSC) tổ chức.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
