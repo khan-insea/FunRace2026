@@ -2,6 +2,7 @@ import React from 'react';
 import { SITE_DATA } from '../data/rvRunnerData';
 import { ChevronRight, ExternalLink, Calendar, MapPin, ShieldCheck, Flag } from 'lucide-react';
 import { EventKVBanner } from './EventKVBanner';
+import { EventKeyInfoBar } from './EventKeyInfoBar';
 
 interface BannerHeroProps {
   onJoinClick?: () => void;
@@ -159,6 +160,11 @@ export const BannerHero: React.FC<BannerHeroProps> = () => {
 
           </div>
 
+        </div>
+
+        {/* Khối Thông tin cốt lõi sự kiện (Ngày tổ chức • Địa điểm • Hạn đăng ký) */}
+        <div className="mt-6 sm:mt-8 lg:mt-10 w-full">
+          <EventKeyInfoBar />
         </div>
 
       </div>

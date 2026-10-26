@@ -140,7 +140,11 @@ export const EligibilityAndTimeline: React.FC = () => {
                 <div className="font-extrabold text-slate-900 text-xs sm:text-sm md:text-base">
                   Cổng đăng ký FunRace chính thức
                 </div>
-                <p className="text-[11px] sm:text-xs text-slate-500 mt-0.5 mb-2.5">
+                <div className="inline-flex items-center gap-1.5 text-[11px] sm:text-xs text-amber-800 font-bold bg-amber-100/80 px-2 py-0.5 rounded-md mt-1 mb-1.5">
+                  <Clock className="w-3 h-3 text-amber-700 shrink-0" />
+                  <span>Hạn chót đăng ký: 05/11/2026</span>
+                </div>
+                <p className="text-[11px] sm:text-xs text-slate-500 mb-2.5">
                   Quét mã QR hoặc nhấn vào nút bên dưới để chọn cự ly và đăng ký trực tuyến
                 </p>
                 <a

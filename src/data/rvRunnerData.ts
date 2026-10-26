@@ -61,6 +61,7 @@ export const SITE_DATA = {
     distances: ["5KM", "10KM", "21KM"],
     // Cổng đăng ký duy nhất và bắt buộc
     registrationUrl: "https://funrace.id.vn/races/14",
+    registrationDeadline: "05/11/2026",
     targetCountdownDate: "2026-11-22T05:00:00+07:00",
     bannerImage: "/assets/aistudio/race_92be563d-46df-4bc7-8df5-4708a4882910_9feb732a.png",
     organizers: [

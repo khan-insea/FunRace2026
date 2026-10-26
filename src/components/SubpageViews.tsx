@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { SITE_DATA, NewsItem } from '../data/rvRunnerData';
 import { Calendar, ChevronRight, MapPin, Clock, Phone, ExternalLink, Award, ShieldCheck, CheckCircle2 } from 'lucide-react';
+import { EventKeyInfoBar } from './EventKeyInfoBar';
 
 interface SubpageViewsProps {
   currentTab: string;
@@ -28,6 +29,9 @@ export const SubpageViews: React.FC<SubpageViewsProps> = ({ currentTab, onBackTo
               “{SITE_DATA.event.slogan}”
             </p>
           </div>
+
+          {/* Thanh thông tin cốt lõi sự kiện */}
+          <EventKeyInfoBar className="mb-8 sm:mb-10" />
 
           {/* Khối cự ly thi đấu */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
@@ -142,6 +146,9 @@ export const SubpageViews: React.FC<SubpageViewsProps> = ({ currentTab, onBackTo
               Thời gian chi tiết cho ngày phát Race Kit và ngày thi đấu chính thức (21 – 22/11/2026)
             </p>
           </div>
+
+          {/* Thanh thông tin cốt lõi sự kiện */}
+          <EventKeyInfoBar className="mb-8 sm:mb-10" />
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             
