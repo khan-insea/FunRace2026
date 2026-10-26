@@ -1,5 +1,4 @@
 import React from 'react';
-import { Camera, MapPin, Compass } from 'lucide-react';
 
 export const MediaHighlights: React.FC = () => {
   const highlights = [
@@ -18,11 +17,11 @@ export const MediaHighlights: React.FC = () => {
       tag: 'Khu vực thi đấu',
     },
     {
-      id: 'paradise-retreat',
-      title: 'Paradise Retreat Hòn Sơn – Điểm hẹn nghỉ dưỡng lý tưởng',
-      desc: 'Không gian lưu trú ven biển tuyệt đẹp tại Ấp Bãi Nhà B, đồng hành ưu đãi 20% cho runner phục hồi thể lực hoàn hảo.',
+      id: 'fly-up-resort',
+      title: 'Fly Up Resort Hòn Sơn – Điểm hẹn nghỉ dưỡng lý tưởng',
+      desc: 'Không gian lưu trú ven biển tuyệt đẹp tại Bãi Bấc, đồng hành ưu đãi 20% cho runner phục hồi thể lực hoàn hảo.',
       thumb: '/assets/event_photo_3_beach.png',
-      tag: 'Nghỉ dưỡng & Ẩm thực',
+      tag: 'Nghỉ dưỡng & Phát Race Kit',
     },
   ];
 
@@ -30,10 +29,9 @@ export const MediaHighlights: React.FC = () => {
     <section id="hinh-anh" className="w-full bg-white">
       {/* Dải tiêu đề xanh lá nhạt toàn chiều ngang theo mẫu gốc */}
       <div className="w-full bg-[#D7F5A3] py-5 sm:py-6 text-center border-y border-[#C8E892]">
-        <div className="inline-flex items-center gap-2 text-[#285A14] font-black text-xl sm:text-2xl lg:text-[32px] tracking-wider uppercase">
-          <Camera className="w-6 h-6 text-[#285A14]" />
-          <span>HÌNH ẢNH & KHOẢNH KHẮC HÒN SƠN</span>
-        </div>
+        <h2 className="text-[#285A14] font-black text-xl sm:text-2xl lg:text-[32px] tracking-wider uppercase">
+          HÌNH ẢNH &amp; KHOẢNH KHẮC HÒN SƠN
+        </h2>
       </div>
 
       {/* Danh sách 3 hình ảnh nổi bật */}

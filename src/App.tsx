@@ -98,7 +98,7 @@ export default function App() {
             {/* 3. Dải xanh Hướng dẫn & Nút đăng ký cổng FunRace */}
             <AppAndStravaGuide />
 
-            {/* 4. Thẻ Lịch trình sự kiện & Thẻ Ưu đãi 20% Paradise Retreat Hòn Sơn */}
+            {/* 4. Thẻ Ưu đãi nghỉ dưỡng Fly Up Resort Hòn Sơn */}
             <PrizesSection />
 
             {/* 5. Dải Hình ảnh & Khoảnh khắc Hòn Sơn */}

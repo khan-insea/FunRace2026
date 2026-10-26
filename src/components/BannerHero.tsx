@@ -158,13 +158,13 @@ export const BannerHero: React.FC<BannerHeroProps> = () => {
               </div>
             </div>
 
+            {/* Khối Thông tin cốt lõi (Ngày tổ chức • Địa điểm • Hạn đăng ký): Lấp khoảng trống trên PC */}
+            <div className="mt-4 sm:mt-5 lg:mt-6 w-full">
+              <EventKeyInfoBar />
+            </div>
+
           </div>
 
-        </div>
-
-        {/* Khối Thông tin cốt lõi sự kiện (Ngày tổ chức • Địa điểm • Hạn đăng ký) */}
-        <div className="mt-6 sm:mt-8 lg:mt-10 w-full">
-          <EventKeyInfoBar />
         </div>
 
       </div>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { SITE_DATA, NewsItem } from '../data/rvRunnerData';
-import { Calendar, ChevronRight, MapPin, Clock, Phone, ExternalLink, Award, ShieldCheck, CheckCircle2 } from 'lucide-react';
+import { Calendar, ChevronRight, MapPin, Clock, Phone, ExternalLink, Award, ShieldCheck, CheckCircle2, Mail } from 'lucide-react';
 import { EventKeyInfoBar } from './EventKeyInfoBar';
 
 interface SubpageViewsProps {
@@ -289,7 +289,7 @@ export const SubpageViews: React.FC<SubpageViewsProps> = ({ currentTab, onBackTo
               SẴN SÀNG CHINH PHỤC CUNG ĐƯỜNG ĐẢO NGỌC HÒN SƠN?
             </h3>
             <p className="text-sky-100 text-sm sm:text-base max-w-xl mx-auto mb-6">
-              Đăng ký ngay hôm nay để nhận quyền lợi trọn gói, bảo hiểm sự kiện và ưu đãi giảm 20% tại Paradise Retreat Hòn Sơn!
+              Đăng ký ngay hôm nay để nhận quyền lợi trọn gói, bảo hiểm sự kiện và ưu đãi giảm 20% tại Fly Up Resort Hòn Sơn!
             </p>
             <a
               href={SITE_DATA.event.registrationUrl}
@@ -525,28 +525,40 @@ export const SubpageViews: React.FC<SubpageViewsProps> = ({ currentTab, onBackTo
               </div>
             </div>
 
-            {/* Cột 2: Đối tác lưu trú Paradise Retreat Hòn Sơn */}
+            {/* Cột 2: Đối tác lưu trú Fly Up Resort Hòn Sơn */}
             <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-xs flex flex-col justify-between">
               <div>
                 <div className="w-12 h-12 rounded-2xl bg-emerald-500 text-white flex items-center justify-center mb-4">
                   <Award className="w-6 h-6" />
                 </div>
                 <h3 className="font-extrabold text-slate-900 text-xl mb-2">
-                  Paradise Retreat Hòn Sơn
+                  Fly Up Resort Hòn Sơn
                 </h3>
                 <p className="text-slate-600 text-xs sm:text-sm mb-6 leading-relaxed">
                   Đơn vị đồng hành lưu trú & nghỉ dưỡng chính thức. Ưu đãi giảm ngay 20% cho runner và gia đình tham dự sự kiện.
                 </p>
 
-                <div className="space-y-3 text-sm text-slate-700">
-                  <div className="flex items-center gap-2.5">
-                    <MapPin className="w-4 h-4 text-slate-500 shrink-0" />
-                    <span>Ấp Bãi Nhà B, đặc khu Kiên Hải, tỉnh An Giang</span>
+                <div className="space-y-2.5 text-sm text-slate-700">
+                  <div className="flex items-start gap-2.5">
+                    <MapPin className="w-4 h-4 text-slate-500 shrink-0 mt-0.5" />
+                    <span>Bãi Bấc, Lại Sơn, Đặc Khu Kiên Hải, Tỉnh An Giang</span>
                   </div>
                   <div className="flex items-center gap-2.5">
-                    <Phone className="w-4 h-4 text-emerald-600 shrink-0" />
+                    <Phone className="w-4 h-4 text-amber-600 shrink-0" />
                     <span>
-                      Hotline đặt phòng: <a href="tel:0984501536" className="font-bold text-emerald-600 hover:underline">0984 501 536</a>
+                      Hotline: <a href="tel:0857822822" className="font-extrabold text-amber-700 hover:underline">0857 822 822</a>
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2.5">
+                    <Phone className="w-4 h-4 text-sky-600 shrink-0" />
+                    <span>
+                      SĐT bàn: <a href="tel:02973822822" className="font-semibold text-slate-800 hover:underline">0297 3 822 822</a>
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2.5">
+                    <Mail className="w-4 h-4 text-emerald-600 shrink-0" />
+                    <span>
+                      Email: <a href="mailto:info@flyupresort.com" className="font-semibold text-emerald-700 hover:underline">info@flyupresort.com</a>
                     </span>
                   </div>
                 </div>
@@ -554,11 +566,11 @@ export const SubpageViews: React.FC<SubpageViewsProps> = ({ currentTab, onBackTo
 
               <div className="pt-6 mt-6 border-t border-slate-100">
                 <a
-                  href="tel:0984501536"
-                  className="w-full inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm py-3 rounded-xl transition-colors"
+                  href="tel:0857822822"
+                  className="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white font-bold text-sm py-3 rounded-xl transition-all shadow-xs"
                 >
                   <Phone className="w-4 h-4" />
-                  <span>GỌI HOTLINE ĐẶT PHÒNG 0984 501 536</span>
+                  <span>GỌI HOTLINE ĐẶT PHÒNG: 0857 822 822</span>
                 </a>
               </div>
             </div>

@@ -113,7 +113,7 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, onSelectTab }) => {
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Tìm kiếm: cự ly, lịch trình 21-22/11, ưu đãi Paradise Retreat..."
+              placeholder="Tìm kiếm: cự ly, lịch trình 21-22/11, ưu đãi Fly Up Resort..."
               className="w-full text-sm outline-none py-1.5 text-slate-800 placeholder-slate-400"
               autoFocus
             />
